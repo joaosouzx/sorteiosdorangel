@@ -43,7 +43,7 @@ section {
 }
 
 .sec2 {
-  background: url(../img/sec2.png) no-repeat center center;
+  background: url(../img/sec3.png) no-repeat center center;
 }
 
 .sec2 .title {
@@ -59,7 +59,7 @@ section {
 }
 
 .sec3 {
-  background: url(../img/sec3.png) no-repeat center center;
+  background: url(../img/sec2.png) no-repeat center center;
 }
 
 .sec3 .title {
@@ -156,6 +156,10 @@ section {
     margin: auto;
   }
 
+  .premios img {
+    max-width: 150px;
+  }
+
   .cta {
     margin: 1rem auto 0 auto;
     max-width: 250px;
@@ -166,7 +170,7 @@ section {
   }
   
   .sec2 .subtitle {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .sec3 .title {
@@ -184,6 +188,11 @@ section {
     margin: auto;
   }
 
+  .premios img {
+    max-width: 100px;
+    margin: .1rem auto 0 auto;
+  }
+
   .cta {
     margin: 1rem auto 0 auto;
     max-width: 150px;
@@ -198,9 +207,14 @@ section {
     font-size: 9px;
   }
 
+  .sec3 {
+    gap: 0;
+  }
+
   .sec3 .title {
     font-size: 18px;
     /* max-width: 600px; */
+    margin: 0;
   }
 }
 
