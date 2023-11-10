@@ -1,0 +1,149 @@
+html {
+  height: 100vh;
+}
+
+body {
+  background-color: #fff;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  height: 100vh;
+
+}
+
+section {
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+}
+
+.banner {
+  background: url(../img/banner.png) no-repeat center center;
+}
+
+.sec1 {
+  background: url(../img/sec1.png) no-repeat center center;
+}
+
+.premios img {
+  display: block;
+  margin: 1rem auto 0 auto;
+  width: 100%;
+  max-width: 415px;
+}
+
+.cta {
+  display: block;
+  margin: 2rem auto 0 auto;
+  width: 100%;
+  max-width: 700px;
+}
+
+.sec2 {
+  background: url(../img/sec2.png) no-repeat center center;
+}
+
+.sec2 .title {
+  font-family: "Diaconia Old Style W00 Black";
+  font-size: 100px;
+}
+
+.sec2 .subtitle {
+  font-family: "Fibra One Heavy";
+  font-size: 24px;
+  max-width: 750px;
+}
+
+.sec3 {
+  background: url(../img/sec3.png) no-repeat center center;
+}
+
+.sec3 .title {
+  font-family: "Fibra One Heavy";
+  font-size: 90px;
+  max-width: 1050px;
+}
+
+@media screen and (max-width: 1399px) {
+  .premios img {
+    max-width: 356px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .banner,
+  .sec1,
+  .sec2,
+  .sec3 {
+    background-position: 60% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  section {
+    width: 100%;
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+  }
+
+  .premios img {
+    max-width: 295px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .banner,
+  .sec1,
+  .sec2,
+  .sec3 {
+    background-position: center;
+    background-size: contain;
+  }
+
+  section {
+    width: 960px;
+    height: 540px;
+  }
+
+  .premios img {
+    max-width: 250px;
+  }
+
+  .cta {
+    margin: 1rem auto 0 auto;
+    max-width: 400px;
+  }
+
+  .sec2 .title {
+    font-size: 72px;
+  }
+
+  .sec3 .title {
+    font-size: 48px;
+    max-width: 600px;
+  }
+}
+
+@font-face {
+  font-family: "Diaconia Old Style W00 Black";
+  src:
+  url("https://db.onlinewebfonts.com/t/765385a700febbad3b320255f9fe7fee.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/765385a700febbad3b320255f9fe7fee.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/765385a700febbad3b320255f9fe7fee.ttf")format("truetype"),
+}
+
+@font-face {
+  font-family: "Fibra One Heavy";
+  src:
+  url("https://db.onlinewebfonts.com/t/b394c5119acec5d13fceaaced78d4efe.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/b394c5119acec5d13fceaaced78d4efe.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/b394c5119acec5d13fceaaced78d4efe.ttf")format("truetype"),
+}
