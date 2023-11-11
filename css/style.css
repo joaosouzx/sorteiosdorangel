@@ -21,11 +21,11 @@ section {
 }
 
 .banner {
-  background: url(../img/banner.png) no-repeat center center;
+  background: url(../img/banner-min.png) no-repeat center center;
 }
 
 .sec1 {
-  background: url(../img/sec1.png) no-repeat center center;
+  background: url(../img/sec1-min.png) no-repeat center center;
 }
 
 .premios img {
@@ -43,7 +43,7 @@ section {
 }
 
 .sec2 {
-  background: url(../img/sec3.png) no-repeat center center;
+  background: url(../img/sec3-min.png) no-repeat center center;
 }
 
 .sec2 .title {
@@ -59,7 +59,7 @@ section {
 }
 
 .sec3 {
-  background: url(../img/sec2.png) no-repeat center center;
+  background: url(../img/sec2-min.png) no-repeat center center;
 }
 
 .sec3 .title {
